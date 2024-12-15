@@ -1,6 +1,6 @@
 {
     "name": "algorify",
-    "version": "1.0.0",
+    "version": "0.0.0-development",
     "description": "A data structures and algorithms library written in typescript",
     "main": "dist/index.js",
     "directories": {
@@ -16,7 +16,14 @@
     "devDependencies": {
         "@types/jest": "^29.5.13",
         "jest": "^29.7.0",
+        "semantic-release": "^24.2.0",
         "ts-jest": "^29.2.5",
         "typescript": "^5.6.3"
+    },
+    "files": [
+        "dist", "README.md"
+    ],
+    "publishConfig": {
+        "access": "public"
     }
 }
