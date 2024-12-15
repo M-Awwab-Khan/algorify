@@ -1,9 +1,11 @@
-# Algorify
+# Typestruct
 
-**Algorify** is a comprehensive TypeScript library that provides a collection of data structures and algorithms. It is designed to simplify the use of common structures like linked lists, trees, graphs, and more in TypeScript-based projects. Algorify is suitable for learning, development, and competitive programming scenarios.
+**Typestruct** is a comprehensive TypeScript library that provides a collection of data structures and algorithms. It is designed to simplify the use of common structures like linked lists, trees, graphs, and more in TypeScript-based projects. typestruct is suitable for learning, development, and competitive programming scenarios.
 
 ## Features
+
 - **Data Structures**: Includes commonly used data structures such as:
+
   - Linked Lists
   - Binary Search Trees
   - Disjoint Sets
@@ -11,6 +13,7 @@
   - LRU Cache, and more.
 
 - **Algorithms**: Includes a wide range of algorithms for:
+
   - Sorting
   - Searching
   - Graph traversal (BFS, DFS)
@@ -20,10 +23,10 @@
 
 ## Installation
 
-You can install Algorify via npm:
+You can install typestruct via npm:
 
 ```bash
-npm install algorify
+npm install typestruct
 ```
 
 ## Usage
@@ -31,7 +34,7 @@ npm install algorify
 Import the relevant data structure or algorithm into your TypeScript file and use it as needed. For example, to use the `SinglyLinkedList`:
 
 ```typescript
-import { SinglyLinkedList } from 'algorify';
+import { SinglyLinkedList } from "typestruct";
 
 const list = new SinglyLinkedList<number>();
 list.append(1);
@@ -46,7 +49,7 @@ console.log(list.get(1)); // Output: 3
 #### 1. Disjoint Set (Union-Find):
 
 ```typescript
-import { DisjointSet } from 'algorify';
+import { DisjointSet } from "typestruct";
 
 const ds = new DisjointSet(5);
 ds.makeSet(0);
@@ -59,7 +62,7 @@ console.log(ds.connected(0, 1)); // Output: true
 #### 2. Binary Search Tree:
 
 ```typescript
-import { BinarySearchTree } from 'algorify';
+import { BinarySearchTree } from "typestruct";
 
 const bst = new BinarySearchTree<number>();
 bst.insert(10);
@@ -74,6 +77,7 @@ console.log(bst.search(15)); // Output: true
 ### Data Structures
 
 - **SinglyLinkedList**
+
   - `prepend(item: T)`: Adds an item to the start of the list.
   - `append(item: T)`: Adds an item to the end of the list.
   - `insertAt(item: T, idx: number)`: Inserts an item at the specified index.
@@ -81,6 +85,7 @@ console.log(bst.search(15)); // Output: true
   - `get(index: number)`: Retrieves the item at the given index.
 
 - **DisjointSet**
+
   - `makeSet(i: number)`: Creates a set for element `i`.
   - `union(i: number, j: number)`: Merges the sets containing `i` and `j`.
   - `find(i: number)`: Finds the representative of the set containing `i`.
@@ -94,6 +99,7 @@ console.log(bst.search(15)); // Output: true
 ### Algorithms
 
 - **Sorting**
+
   - Quick Sort, Merge Sort, Insertion Sort, etc.
 
 - **Graph Algorithms**
@@ -135,4 +141,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests. Bef
 
 ---
 
-Happy coding with **Algorify**!
+Happy coding with **typestruct**!
