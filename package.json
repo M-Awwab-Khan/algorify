@@ -1,5 +1,5 @@
 {
-    "name": "typestruct",
+    "name": "@typestruct/typestruct",
     "version": "0.0.0-development",
     "description": "A data structures and algorithms library written in typescript",
     "main": "dist/index.js",
