@@ -1,4 +1,4 @@
-import AVLTree from "../src/AVLTree";
+import AVLTree from "../AVLTree";
 
 describe("AVL Tree", () => {
   let tree: AVLTree<number>;

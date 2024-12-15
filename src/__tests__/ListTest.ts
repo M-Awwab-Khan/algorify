@@ -1,6 +1,6 @@
-import { List } from "../src/types";
-import { SinglyLinkedList } from "../src";
-import { DoublyLinkedList } from "../src";
+import { List } from "../types";
+import { SinglyLinkedList } from "..";
+import { DoublyLinkedList } from "..";
 export function test_list(list: List<number>): void {
   list.append(5);
   list.append(7);
